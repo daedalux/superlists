@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae124edd-fb6a-48b4-833c-84489f0fd917" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functional_tests.py" afterPath="$PROJECT_DIR$/functional_tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/templates/home.html" afterPath="$PROJECT_DIR$/lists/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/models.py" afterPath="$PROJECT_DIR$/lists/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/tests.py" afterPath="$PROJECT_DIR$/lists/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/views.py" afterPath="$PROJECT_DIR$/lists/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="superlists.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,12 +26,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="functional_tests.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="functional_tests.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functional_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="60" selection-start="2401" selection-end="2401" vertical-scroll-proportion="0.74480367" vertical-offset="324" max-vertical-offset="1309">
+            <state line="36" column="5" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1309">
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
+                <marker date="1394641376261" expanded="true" signature="136:2778" placeholder="..." />
+                <marker date="1394641376261" expanded="true" signature="354:2778" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -45,7 +43,10 @@
         <entry file="file://$PROJECT_DIR$/lists/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="7" selection-start="397" selection-end="397" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="357">
-              <folding />
+              <folding>
+                <marker date="1394641172381" expanded="true" signature="5:396" placeholder="..." />
+                <marker date="1394641172381" expanded="true" signature="306:376" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,12 +74,19 @@
       <file leaf-file-name="tests.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lists/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+            <state line="49" column="60" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="935">
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
-                <marker date="1394640346447" expanded="true" signature="231:1048" placeholder="..." />
-                <marker date="1394640346447" expanded="true" signature="663:1048" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lists/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="29" selection-start="85" selection-end="85" vertical-scroll-proportion="0.058891457" vertical-offset="0" max-vertical-offset="866">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,10 +105,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/superlists/settings.py" />
-        <option value="$PROJECT_DIR$/lists/tests.py" />
         <option value="$PROJECT_DIR$/lists/views.py" />
         <option value="$PROJECT_DIR$/lists/templates/home.html" />
         <option value="$PROJECT_DIR$/functional_tests.py" />
+        <option value="$PROJECT_DIR$/lists/tests.py" />
+        <option value="$PROJECT_DIR$/lists/models.py" />
       </list>
     </option>
   </component>
@@ -409,17 +418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lists/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-            <marker date="1394640346447" expanded="true" signature="231:1048" placeholder="..." />
-            <marker date="1394640346447" expanded="true" signature="663:1048" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lists/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
@@ -432,16 +430,37 @@
     <entry file="file://$PROJECT_DIR$/lists/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="7" selection-start="397" selection-end="397" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="357">
-          <folding />
+          <folding>
+            <marker date="1394641172381" expanded="true" signature="5:396" placeholder="..." />
+            <marker date="1394641172381" expanded="true" signature="306:376" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functional_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="60" selection-start="2401" selection-end="2401" vertical-scroll-proportion="0.74480367" vertical-offset="324" max-vertical-offset="1309">
+        <state line="36" column="5" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1309">
           <folding>
             <element signature="e#0#30#0" expanded="true" />
+            <marker date="1394641376261" expanded="true" signature="136:2778" placeholder="..." />
+            <marker date="1394641376261" expanded="true" signature="354:2778" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="60" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="935">
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="29" selection-start="85" selection-end="85" vertical-scroll-proportion="0.058891457" vertical-offset="0" max-vertical-offset="866">
+          <folding />
         </state>
       </provider>
     </entry>
